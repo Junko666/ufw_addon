@@ -1,6 +1,6 @@
 name: "UFW-Addon"
 description: "UFW add-on!"
-version: "1.0.1"
+version: "1.0.2"
 slug: "ufw_addon"
 init: false
 arch:
