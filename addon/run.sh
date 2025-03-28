@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 ufw default deny incoming
 ufw allow 8123
