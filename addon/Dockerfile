@@ -1,9 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-FROM alpine:3.14
-
-RUN apk add ufw
+RUN apk add --no-cache ufw iptables
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 
