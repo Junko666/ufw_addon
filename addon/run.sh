@@ -8,7 +8,7 @@ ufw allow 8123
 ufw allow ssh
 
 # Aktiviere ufw
-sudo ufw --force enable
+ufw --force enable
 
 # Hier kannst du zusätzliche Regeln hinzufügen
 
