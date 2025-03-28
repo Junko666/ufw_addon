@@ -1,3 +1,6 @@
+ARG BUILD_FROM
+FROM $BUILD_FROM
+
 FROM alpine:3.14
 
 # Installiere ufw und andere notwendige Pakete
