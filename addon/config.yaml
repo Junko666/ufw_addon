@@ -11,5 +11,3 @@ arch:
   - armhf
   - armv7
   - i386
-map:
-  libmodules: /lib/modules
